@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS Resturent </title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/rest.css ">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Poetsen+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"  rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/animate/animate.min.css">
+<style>
+  .hero-header {
+    background:  linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-header img {
+    animation: imgRotate 50s linear infinite;
+}
+
+@keyframes imgRotate { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+}
+.breadcrumb-item a{
+    color:rgb(253 , 57 , 8);
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+}
+.hero-header h1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    color: white;
+}
+
+.footer{
+  height: 437px;
+}
+.d-flex{
+  margin-bottom: 15px;
+}
+.team-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    height: calc(100% - 64px);
+}
+.footer .section-title{
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .logoimg{
+        width: 47% !important;
+    }
+    .footer {
+        height: 964px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .footer {
+        height:999px;
+    }
+}
+   
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+  <div class="top-nav">
+    <div class="left">
+        <span>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          C-14, Near Safiya Hospital , Surya Nagar, Alwar, Rajasthan 301001</span>
+    </div>
+    <div class="right">
+            <span><i class="fa fa-phone" aria-hidden="true"></i> +91-6377223211</span>
+            <span><i class="fa fa-envelope" aria-hidden="true"></i> 121abhishekgoyal@gmail.com</span>
+     
+        
+        </div>
+   </div>
+    <nav>
+
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="../rest.html"> -->
+              <img src="../images/logo.png" alt="" class="logoimg" style="    width: 17%;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Services.html">Services<i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html" aria-expanded="false">
+                    Gallery <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-disabled="true" href="about.html">About us <i class="fa fa-angle-down"
+                      aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-disabled="true" href="contact.html">Contact us</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+             <a href="order.html">  <button type="button" id="btn" >Order</button></a>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </nav>
+
+      <div class="container-xxl py-5 bg-dark hero-header mb-5">
+        <div class="container text-center my-5 pt-5 pb-4">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">About us</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center text-uppercase">
+                  <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">About </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+
+          <!-- about us  -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="row g-3">
+              <div class="col-6 text-start">
+                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="../images/About1.jpg">
+              </div>
+              <div class="col-6 text-start">
+                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="../images/2024-05-13 (3).jpg"
+                  style="margin-top: 32%;">
+              </div>
+              <div class="col-6 text-end">
+                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="../images/about3.jpg">
+              </div>
+              <div class="col-6 text-end">
+                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="../images/About1.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6" id="aboutit">
+            <h5 class="section-title ff-secondary text-start  fw-normal">About Us</h5>
+            <h1 class="mb-4">Welcome to <i class="fa fa-utensils me-2"></i> </h1>
+            <h2>Ridhi Sidhi Resturent</h2>
+            <p class="mb-4">Welcome to Ridhi Sidhi Cafe and Restaurant, where flavor meets tradition! Nestled in the heart of the city, we offer a cozy ambiance and a wide variety of mouth-watering dishes prepared with the freshest ingredients. Whether you're here for a quick snack, a family dinner, or a special occasion, our friendly staff and delicious meals will make your experience memorable. Come, enjoy our blend of authentic tastes and modern culinary twists at Ridhi Sidhi Cafe and Restaurant!
+            </p>
+
+           
+            <button class="visit read">Read more</button>
+          </div>
+        </div>
+      </div>
+
+     
+        <div class="container" style="max-width: 1140px;">
+            
+            <div class="row g-4">
+              <div class="col-xl-12">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                  <!-- <h5 class="section-title ff-secondary text-center  fw-normal">Team Mamber</h5> -->
+                  <i>  <h1 class=" why">Our Most Experienced 5star Property Chef</h1></i> 
+                </div>
+              </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <div class="rounded-circle overflow-hidden  imb">
+                            <img class="img-fluid" src="../images/c1.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <small>Designation</small>
+                        <div class="d-flex justify-content-center mt-3">
+                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <div class="rounded-circle overflow-hidden imb">
+                            <img class="img-fluid" src="../images/c2.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <small>Designation</small>
+                        <div class="d-flex justify-content-center mt-3">
+                            <a class="btn btn-square  mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square  mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square  mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <div class="rounded-circle overflow-hidden imb">
+                            <img class="img-fluid" src="../images/c3.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <small>Designation</small>
+                        <div class="d-flex justify-content-center mt-3">
+                            <a class="btn btn-square  mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square  mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square  mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <div class="rounded-circle overflow-hidden imb">
+                            <img class="img-fluid" src="../images/c4.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <small>Designation</small>
+                        <div class="d-flex justify-content-center mt-3">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+          <div class="container" style="max-width: 1140px;">
+           <div class="row">
+           <div class="col-xl-3" id="footerdiv">
+             <h4 class="section-title ff-secondary text-start  fw-normal mb-4">Company</h4>
+             <a class="btn btn-link" href="about.html">About Us</a>
+             <a class="btn btn-link" href="contact.html">Contact Us</a>
+             <a class="btn btn-link" href="">Reservation</a>
+             <a class="btn btn-link" href="">Privacy Policy</a>
+             <a class="btn btn-link" href="">Terms & Condition</a>
+         
+           </div>
+           <div class="col-xl-3">
+             <h4 class="section-title ff-secondary text-start  fw-normal mb-4">Contact</h4>
+             <p class="mb-3"><i class="fa fa-map-marker-alt me-3"></i> C-14, Near Safiya Hospital , Surya Nagar, Alwar, Rajasthan 301001</p>
+             <p class="mb-3"><i class="fa fa-phone-alt me-3"></i>+916377223211</p>
+             <p class="mb-2"><i class="fa fa-envelope me-3"></i>121abhishekgoyal@gmail.com </p>
+             <div class="d-flex pt-2">
+                 <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                 <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                 <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                 <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+             </div>
+           </div>
+           <div class="col-xl-3">
+             <h4 class="section-title ff-secondary text-start  fw-normal mb-4">Opening</h4>
+             <h5 class="text-light fw-normal">Sunday - Saturday</h5>
+        <p>10:30AM - 10:30PM</p>
+           </div>
+           <div class="col-lg-3 col-md-6">
+             <h4 class="section-title ff-secondary text-start  fw-normal mb-4">Newsletter</h4>
+             <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+             <div class="position-relative mx-auto" style="max-width: 400px;margin-bottom: 20px;">
+                 <input class="form-control w-100 " type="text" placeholder="Your email">
+                 <button type="button" class="btn singbtn position-absolute ">SignUp</button>
+             </div>
+         </div>
+         <div class="col-xl-12 copyright d-flex " >
+     <h1>&copy;<span>Garg Web inof,</span> All Right Reserved</h1>
+     <div class="footer-menu">
+       <a href="../index.html">Home</a>
+       <a href="">Cookies</a>
+       <a href="">Help</a>
+       <a href="">FQAs</a>
+     </div>
+         </div>
+           
+          </div>
+             </div>
+           </div>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+<!-- scripts  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+<!-- for food menu  -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="../script.js"></script>
+
+</body>
+</html>
